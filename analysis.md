@@ -14,12 +14,12 @@ The first step in the analysis is to understand how credit scores are distribute
 
 The pie charts below illustrate the percentage of wallets falling into different score ranges (0-99, 100-199, etc.).
 
-![Score Distribution Pie Charts](https://i.imgur.com/uW98d7A.png)
+![Score Distribution Pie Charts](https://github.com/jayant1554/credit_score_defi/blob/main/analys_imag/piechartdf.png)
 
 **Key Observations:**
 
 * **Rule-Based Model:**
-    * A staggering **98.2%** of wallets are concentrated in the **100-199** score range.
+    * A staggering **83%** of wallets are concentrated in the **500-599** score range.
     * This suggests that the rule-based model has low variance and tends to group most users into a single, narrow category, making it difficult to differentiate between them.
     * Only a tiny fraction of wallets score outside this range, indicating a lack of granularity in the scoring logic.
 * **ML-Based Model:**
@@ -31,7 +31,7 @@ The pie charts below illustrate the percentage of wallets falling into different
 
 The bar chart provides a side-by-side comparison of the number of wallets in each score range for the two models.
 
-![Score Range Bar Chart](https://i.imgur.com/83p1y3s.png)
+![Score Range Bar Chart])
 
 **Key Observations:**
 
@@ -48,7 +48,7 @@ To further understand the differences between the two models, we analyzed the sc
 
 The KDE plot shows the distribution of the score differences.
 
-![KDE Plot of Score Differences](https://i.imgur.com/o2K8n6P.png)
+![KDE Plot of Score Differences](https://github.com/jayant1554/credit_score_defi/blob/main/analys_imag/kdedf.png)
 
 **Statistical Summary:**
 
@@ -95,7 +95,7 @@ Based on the superior granularity of the ML-based model, we can classify user be
 
 The pie chart below shows the breakdown of user types according to the ML model's scores.
 
-![User Behavior Pie Chart](https://i.imgur.com/k6lP0Wn.png)
+![User Behavior Pie Chart](https://github.com/jayant1554/credit_score_defi/blob/main/analys_imag/userbehavdf.png)
 
 * **Reliable (82.8%):** The vast majority of users fall into this category. These are likely regular users with a consistent but not necessarily extensive history of on-chain activity. They represent a stable and predictable user base.
 * **Highly Reliable (14.3%):** This segment represents the "power users" of the ecosystem. Their high scores suggest a long, diverse, and positive on-chain history.
