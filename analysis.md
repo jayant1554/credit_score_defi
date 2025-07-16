@@ -64,6 +64,7 @@ The KDE plot shows the distribution of the score differences.
 * The minimum difference of -151 shows that in some rare cases, the rule-based model scored a wallet higher than the ML model. These outliers could be wallets engaging in specific activities that trigger a high score in the rule-based system but are flagged as neutral or risky by the ML model.
 
 ### 2.2. Confusion Matrix of Behavior Classifications
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/26f6c343-3943-4ea5-b5a5-d647080fc105" />
 
 To compare the models' classifications, we categorized wallets based on their scores and created a confusion matrix.
 
