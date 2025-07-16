@@ -62,6 +62,7 @@ This will:
 ### 📊 2. Explore Notebook (Optional)
 
 ```bash
+jupyter notebook exp.ipynb
 jupyter notebook analysis.ipynb
 ```
 
