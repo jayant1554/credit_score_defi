@@ -30,6 +30,8 @@ The pie charts below illustrate the percentage of wallets falling into different
 ### 1.2. Bar Chart Comparison
 
 The bar chart provides a side-by-side comparison of the number of wallets in each score range for the two models.
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/e2c52208-4f56-48b7-8c43-a88907896b3c" />
+
 
 ![Score Range Bar Chart])
 
